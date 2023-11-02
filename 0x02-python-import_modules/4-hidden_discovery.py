@@ -5,4 +5,3 @@ if __name__ == "__main__":
     for names in defined_names:
         if not names.startswith("__"):
             print(names)
-

@@ -5,6 +5,6 @@ if __name__ == "__main__":
 
     sum_total = 0
     if len(sys.argv) > 1:
-        for i in sys.argv[1:]:
-            sum_total += int(i)
+        for i in range(1, len(sys.argv)):
+            sum_total += int(sys.argv[i])
     print(sum_total)

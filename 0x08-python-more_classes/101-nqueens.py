@@ -38,7 +38,7 @@ def solve_nqueens(n):
     solve_nqueens_util(board, 0, n, solutions)
 
     for sol in solutions:
-        print([[i, sol[i]] for i in range(n)])
+        print(sol)
 
 
 if __name__ == "__main__":

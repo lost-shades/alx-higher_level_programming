@@ -4,4 +4,4 @@ console.log(line);
 line = 'Python is cool';
 console.log(line);
 line = 'JavaScript is amazing';
-console.log(line); 
+console.log(line);

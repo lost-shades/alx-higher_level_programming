@@ -5,15 +5,15 @@ let firstArg;
 let secondArg;
 
 if (args[0] !== undefined) {
-    firstArg = args[0];
+  firstArg = args[0];
 } else {
-    firstArg = "undefined";
+  firstArg = "undefined";
 }
 
 if (args[1] !== undefined) {
-    secondArg = args[1];
+  secondArg = args[1];
 } else {
-    secondArg = "undefined";
+  secondArg = "undefined";
 }
 
 console.log(firstArg + " is " + secondArg);
